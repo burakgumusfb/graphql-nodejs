@@ -1,8 +1,8 @@
 import { createSchema, createYoga } from 'graphql-yoga'
 import { createServer } from 'node:http'
-import { posts } from './datas/post.js'
-import { users } from './datas/user.js'
-import { roles } from './datas/role.js'
+import { posts } from './data/post.js'
+import { users } from './data/user.js'
+import { roles } from './data/role.js'
 
 
 const typeDefs = `
