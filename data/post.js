@@ -16,6 +16,12 @@ const posts = [
       title: 'Article Three',
       content: 'This is Article Three',
       userId:1
+    },
+    {
+      id: 4,
+      title: 'Article Three',
+      content: 'This is Article Three',
+      userId:3
     }
 ];
 
