@@ -23,7 +23,22 @@ The following queries are available in this GraphQL server:
 
 
 ```
-query MyQuery {
+query UserQuery {
+  users {
+    id
+    name
+    posts {
+      id
+      title
+    }
+  }
+}
+
+```
+OR
+
+```
+query PostQuery {
   posts {
     id
     title
@@ -37,15 +52,8 @@ query MyQuery {
       }
     }
   }
-  users {
-    id
-    name
-    posts {
-      id
-      title
-    }
-  }
 }
 
 ```
+
 
